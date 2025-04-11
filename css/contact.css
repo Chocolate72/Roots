@@ -1,0 +1,45 @@
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+textarea{
+    height:130px;
+    width: 100px;
+    resize: none;
+}
+
+fieldset{
+    height: 200px;
+    width: 400px;
+}
+
+#message{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#submit{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#btn-submit:hover{
+    background-color: #7D98A1;
+    cursor: pointer;
+}
+
+#detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.error {
+    color: red;
+    font-size: 14px;
+  }

@@ -1,0 +1,28 @@
+section h2{
+    text-align: center;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.img{
+    height: 400px;
+    width: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.img div img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
